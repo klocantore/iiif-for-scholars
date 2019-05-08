@@ -7,7 +7,7 @@ map = L.map('map', {
 });
 
 // use this method for two requests of the same image with different parameters
-var iiifUrl = 'http://www.e-codices.unifr.ch/loris/cma/cma-1955-74/cma-1955-74_000b.jp2/650,2300,1000,750/full/0/default.jpg/info.json';
+var iiifUrl = 'https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/info.json';
 
 var layer1 = L.tileLayer.iiif(iiifUrl, {
     fitBounds: false,
